@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <script src="/.js/func.js"></script>
+</head>
+<body>
+  
+  <div style=" width: 40px; margin:auto">
+    <label for="">Numero1</label>
+    <input type="name" text="n1" id="n1" class="form-control">
+    <label for="">Numero2</label>
+    <input type="name" text="n2" id="n2" class="form-control">
+    <label for="">Resultado</label>
+    <input type="name" text="r" id="r" class="form-control">
+    <select name="operacao" id="operacao" class="form-control" onchange="Calcula">
+      <option value="">Selecione uma operacao</option>
+      <option value="1">Soma</option>
+      <option value="2">Mult</option>
+      <option value="3">Subt</option>
+      <option value="4">Div</option>
+    </select>
+    <input type="button" value="Calcula" onclick="Calcula()">
+  </div>
+
+</body>
+</html>
